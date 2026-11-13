@@ -1,6 +1,0 @@
-npm create vite@latest simulador-emulsiones -- --template react
-cd simulador-emulsiones
-npm install
-npm install recharts lucide-react
-npm install -D tailwindcss postcss autoprefixer
-npx tailwindcss init -p
