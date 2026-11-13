@@ -1,0 +1,13 @@
+# Crear el proyecto base con Vite y React
+npm create vite@latest simulador-emulsiones -- --template react
+cd simulador-emulsiones
+
+# Instalar dependencias base de React
+npm install
+
+# Instalar librerías para gráficas (Recharts) e iconos (Lucide)
+npm install recharts lucide-react
+
+# Instalar y configurar Tailwind CSS
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
